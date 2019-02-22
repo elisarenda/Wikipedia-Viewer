@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    margin: 10px;
   }
   
   body{
@@ -10,7 +9,7 @@
     background-color: #f1f1f1;
     min-width: -moz-max-content;    /* Firefox/Gecko */
     min-width: -webkit-max-content; /* Chrome */
-    margin: auto;
+    margin: 20px auto;
   }
   .recherche{
     display: flex;
@@ -22,7 +21,6 @@
     }
   
   .recherche input {
-    padding: 5px;
     font-size: 14px;
     width: fit-content;
     background: #f1f1f1;
@@ -141,7 +139,7 @@
     display: block;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 10px auto;
   }
   
   iframe  {
