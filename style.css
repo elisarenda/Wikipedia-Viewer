@@ -8,6 +8,8 @@
   
   .haut{ 
     background-color: #f1f1f1;
+    min-width: fit-content;
+    margin: auto;
   }
   .recherche{
     display: flex;
