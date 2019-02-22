@@ -10,6 +10,7 @@
     min-width: -moz-max-content;    /* Firefox/Gecko */
     min-width: -webkit-max-content; /* Chrome */
     margin: 20px auto;
+    padding-bottom: 15px;
   }
   .recherche{
     display: flex;
