@@ -8,14 +8,16 @@
   
   .haut{ 
     background-color: #f1f1f1;
-    min-width: fit-content;
+    min-width: -moz-max-content;    /* Firefox/Gecko */
+    min-width: -webkit-max-content; /* Chrome */
     margin: auto;
   }
   .recherche{
     display: flex;
     margin-top: 16px;
     border-radius: 10px;
-    width: fit-content;
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */    
     margin: auto;
     }
   
@@ -114,7 +116,8 @@
   }
   
   p{
-  width: fit-content;
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */  
   margin: auto;
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
@@ -123,8 +126,8 @@
   }
   
   h2{
-    width: fit-content;
-    margin: auto;
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */    margin: auto;
     font-size: 50px;
     font-family: 'Crimson Text', serif;
     font-weight: lighter;
