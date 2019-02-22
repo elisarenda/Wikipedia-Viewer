@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  body{
+  }
+  
+  .haut{ 
+    background-color: #f1f1f1;
+  }
+  .recherche{
+    display: flex;
+    margin-top: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    }
+  
+  .recherche input {
+    padding: 5px;
+    font-size: 14px;
+    width: fit-content;
+    background: #f1f1f1;
+  }
+  
+  .recherche button {
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #757575;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    cursor: default;
+    font-size: 14px;
+    margin: 10px 5px;
+    padding: 0 16px;
+    text-align: center;
+    border-radius: 3px;
+    display: flex;
+    border: 1px solid #d5d4d4;
+    box-shadow: inset 0 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+    
+  }
+  
+  h2 {
+    font-family: 'Crimson Text', serif;
+    font-variant: small-caps;
+    cursor: default;
+    font-size: 60px;
+    width: fit-content;
+    margin: auto;
+    color: #6a6262;
+  }
+  
+  input{
+    border: 1px solid #aaa;
+    box-shadow: inset 0 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 8px 10px;
+    color: #9F9F9F;
+    /* Fond blanc très légèrement transparent */
+      background: rgba(255, 255, 255, 0.1);
+    /* Légère ombre à l'intérieur du champ, pour donner de la profondeur */
+      box-shadow: inset rgba(0,0,0,0.35) 2px 2px 12px;
+    /* Ajouter une transition progressive, pour toutes les propriétés (all) */
+      -webkit-transition: all 0.7s;
+      -moz-transition: all 0.7s;
+      transition: all 0.7s;
+  }
+  
+  input:focus {
+    color: #aaa;
+    border: 1px solid #fcb6c0;
+    box-shadow: inset rgba(0,0,0,0.35) 2px 2px 12px, #fcb6c0 0 0 10px;
+    outline: 0;}
+  
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 14% 16%;
+  }
+  
+  button {
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #757575;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-family: arial,sans-serif;
+    cursor: default;
+    font-size: 14px;
+    margin: 10px 5px;
+    padding: 0 16px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    color: white;
+    border: 1px solid #aaa;
+    box-shadow: 1 0 1px rgba(0, 0, 0, 0.5);
+    background-color: #fcb6c0
+    ;
+  }
+  
+  h1 {
+    font-family: 'Crimson Text', serif;
+    font-variant: small-caps;
+    cursor: default;
+  }
+  
+  p{
+  width: fit-content;
+  margin: auto;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  }
+  
+  h2{
+    width: fit-content;
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Crimson Text', serif;
+    font-weight: lighter;
+    color: #8e8585;
+    }
+  
+  img {
+    content: '';
+    width: 160px;
+    height: 150px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  
+  iframe  {
+    height: 100vw;
+    width: 100%;
+  }
