@@ -74,7 +74,7 @@
   input:focus {
     color: #aaa;
     border: 1px solid #fcb6c0;
-    box-shadow: inset rgba(0,0,0,0.35) 2px 2px 12px, #fcb6c0 0 0 10px;
+    box-shadow: inset rgba(0,0,0,0.35) 1px 1px 5px, #fcb6c0 0 0 10px;
     outline: 0;}
   
   .fa {
